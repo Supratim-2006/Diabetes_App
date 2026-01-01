@@ -1,0 +1,30 @@
+.Diabetic{
+    color: #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
+.yes{
+    background-color: #ff4b4b
+}
+.no{
+    background-color: #01DB4B
+
+}[data-testid="stAppViewContainer"] {
+    background: linear-gradient(-45deg, #020617, #0f172a, #1e293b, #020617);
+    background-size: 400% 400%;
+    animation: gradientBG 5s ease infinite;
+}
+
+/* Animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Remove header background */
+[data-testid="stHeader"] {
+    background: transparent;
+}

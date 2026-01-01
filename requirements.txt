@@ -1,0 +1,13 @@
+# Corrected Versions for Compatibility
+joblib==1.5.2
+pandas==2.2.2
+pydantic==2.7.4
+scikit-learn==1.7.2
+matplotlib==3.10.8
+mediapipe==0.10.13
+numpy==1.26.4
+opencv-contrib-python==4.8.1.78
+tensorflow==2.16.1
+xgboost
+streamlit==1.35.0
+tf_keras
